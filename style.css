@@ -49,7 +49,7 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {
-    background-image: url("images/1707.jpg");
+    background-image: url("images/plain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -65,7 +65,7 @@ header .container-fluid
 
 .hamburger:hover
 {
-  color: #000;
+  color: #df4a32;
   cursor: pointer;
 }
 
@@ -202,4 +202,12 @@ footer p
 .social
 {
     padding-top: 50px;
+}
+#login{
+    padding-top: 20%;
+    text-align: center;
+}
+#login_logo{
+    max-width: 200px;
+    text-align: center;
 }

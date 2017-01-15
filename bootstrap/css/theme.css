@@ -761,6 +761,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  background-repeat: inherit;
 }
 .row {
   margin-left: -15px;
@@ -4387,6 +4388,14 @@ a.list-group-item.active > .badge,
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
+  #login{
+    padding-top: 20%;
+    text-align: center;
+  }
+  #login_logo{
+    max-width: 200px;
+    text-align: center;
+  }
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
