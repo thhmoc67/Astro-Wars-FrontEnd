@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+
     <script>
         window.odometerOptions = {
             selector: '.odometer',
@@ -37,6 +38,13 @@
             theme: 'default'
         };
     </script>
+    <style>
+        #my-code-wrapper {
+            width:350px;
+            height:250px;
+            position:relative; /* Position must be: relative, absolute or fixed */
+        }
+    </style>
 </head>
 <body class="">
 <!-- Pushy Menu -->
@@ -60,15 +68,31 @@
                     <form action="">
                         <a href="#" class="thumbnail logo">
                             <img id="login_logo" src="images/your_logo.png" alt=""  class="img-responsive">
+                            <img id="" src="images/coming_soon.png" width="200px" alt="comingsoon">
                         </a>
                         <a target="_blank" href="#" class="btn btn-danger" role="button">
-                            <i class="fa fa-google" aria-hidden="true"></i> Login with Google</a>
+                            <i class="fa fa-google" aria-hidden="true"></i> Sign In with Google</a>
 
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <pre><code id="my-code-wrapper" data-language="javascript" class="language-javascript" >var input=function()</code></pre>
+    <script src="prism.js" data-manual ></script>
+
+
+    <script>
+        var flask = new CodeFlask;
+        flask.run('#my-code-wrapper');
+        flask.onUpdate(function(code) {
+            console.log("User's input code: " + code);
+        });
+        flask.update("<button>Heeeey, whats up?</button>");
+    </script>
+    <script src="prism.min.js" async></script>
+    <script src="codeflask.js" async></script>
+    <script src="prism.js" async></script>
 </header>
 <!-- Bootstrap core JavaScript
 ================================================== -->

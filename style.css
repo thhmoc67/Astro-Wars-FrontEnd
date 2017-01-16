@@ -1,7 +1,9 @@
 /*------------------------------------*\
 	COMMONS CLASSES
 \*------------------------------------*/
-
+body{
+    background-image: url("images/plain.jpg");
+}
 h1, h2, h3, h4, h5, h6
 {
     font-family: 'Roboto Slab', serif;
@@ -50,10 +52,11 @@ span.x4:before, i.x4:before
 header .container-fluid
 {
     background-image: url("images/plain.jpg");
-    background-repeat: no-repeat;
+    background-repeat: x-repeat;
     background-size: cover;
     height: 100vh;
     padding-top: 36px;
+
 }
 
 .hamburger
@@ -210,4 +213,8 @@ footer p
 #login_logo{
     max-width: 200px;
     text-align: center;
+}
+
+#editor{
+    align-items: center;
 }
