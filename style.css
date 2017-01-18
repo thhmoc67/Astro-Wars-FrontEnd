@@ -64,6 +64,8 @@ header .container-fluid
     font-size: 2.3em;
     color: #FFF;
     float: left;
+    position: fixed;
+    z-index: 999;
 }
 
 .hamburger:hover
@@ -272,4 +274,22 @@ footer p
     text-align: center;
     font-weight: bold;
     color:#FFF;
+}
+
+/* ---------------- */
+#help_container{
+    background-color: #daeaf5;
+    padding: 10px;
+}
+.red{
+    color: #ff5e21;
+    
+}
+#profile_name{
+    padding: 10px;
+}
+.imag{
+    border: #fff 2px solid;
+    padding: 3px;
+    margin: 5px;
 }
